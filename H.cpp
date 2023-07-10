@@ -147,7 +147,7 @@ void solve() {
                     return false;
             }
          }
-    return l.ss >= r.ss;
+        return l.ss >= r.ss;
     });
 
     lp(i, 0, v.size()) {
