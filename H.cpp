@@ -148,11 +148,11 @@ void solve() {
             }
          }
     return l.ss >= r.ss;
-});
-lp(i, 0, v.size()) {
-    cout<<v[i].ss ;
-cout << nl;
-}
+    });
+
+    lp(i, 0, v.size()) {
+        cout<< v[i].ss << nl;
+    }
 
 
 }
